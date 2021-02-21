@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="extent">
+    <test name="logtest">
+        <classes>
+            <class name="com.tester.extent.dmeo.TestMethodDemo">
+                <method>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </method>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
+
+</suite>
