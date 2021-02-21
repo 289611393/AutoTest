@@ -1,4 +1,4 @@
-package com.tester.extent.dmeo;
+package com.tester.extent.demo;
 
 import org.testng.Assert;
 import org.testng.Reporter;

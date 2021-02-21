@@ -2,7 +2,7 @@
 <suite name="extent">
     <test name="logtest">
         <classes>
-            <class name="com.tester.extent.dmeo.TestMethodDemo">
+            <class name="com.tester.extent.demo.TestMethodDemo">
                 <method>
                     <include name="test1"/>
                     <include name="test2"/>
